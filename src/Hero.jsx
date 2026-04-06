@@ -55,7 +55,7 @@ function Hero() {
       {/* Image Container */}
       <div className="flex items-center justify-center">
         <img 
-          src="public/images/Hero-image.png" 
+          src="images/Hero-image.png" 
           alt="Luxury Perfume" 
           className="max-w-full h-auto object-contain drop-shadow-xl"
         />
