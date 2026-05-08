@@ -21,9 +21,9 @@ function Navbar() {
 
 
   return ( 
-    <nav className="flex justify-between items-center z-50 px-4 sm:px-6 md:px-26 py-4 bg-stone-900 fixed top-0 left-0 w-full">
+    <nav className="flex justify-between items-center space-x-3 md:space-x-6 z-50 px-4 sm:px-6 md:px-26 py-4 bg-stone-900 fixed top-0 left-0 w-full">
       {/* Logo */}
-      <a href="#" className="text-amber-800 text-xl md:text-2xl font-serif font-bold">Ruthiana Mists & Notes</a>
+      <a href="#" className="text-amber-800 text-xl text-wrap md:text-2xl flex flex-wrap font-serif font-bold">Ruthiana Mists & Notes</a>
 
       {/* Desktop Navigation. Visible on larger screens */}
       {/* Navlink */}
@@ -47,11 +47,11 @@ function Navbar() {
       </ul>
 
       <a
-        href="#"
-        className="flex items-center rounded-xl bg-green-600 text-white p-2 hover:bg-green-700 hover:-translate-y-1 transition-transform duration-300"
+        href="https://wa.me/+2347086928340"
+        className="flex flex-wrap items-center justify-center rounded-full bg-green-600 text-white p-2 ml-4 hover:bg-green-700 hover:-translate-y-1 transition-transform duration-300"
       >
-        <FaWhatsapp className="h-5 w-5 md:mr-2" />
-        <span className="hidden md:inline font-medium">Order Now</span>
+        <FaWhatsapp className="h-3.5 w-3.5 md:h-5 md:w-5 md:mr-2" />
+        <span className="hidden lg:inline font-medium">Order Now</span>
       </a>
 
       <button 

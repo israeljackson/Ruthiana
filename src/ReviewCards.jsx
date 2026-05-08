@@ -7,7 +7,7 @@ function ReviewCard({rating, review, name, location}) {
     <div className="bg-white rounded-lg p-3 space-y-1.5">
       <div className="flex gap-1 items-center justify-center">
         {[...Array(starCount)].map((_, i) => (
-          <StarIcon key={i} className="h-5 w-5 text-black" />
+          <StarIcon key={i} className="h-5 w-5 text-amber-400" />
         ))}
       </div>
 

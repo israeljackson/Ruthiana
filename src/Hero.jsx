@@ -32,7 +32,7 @@ function Hero() {
           
           {/* Primary CTA */}
           <a 
-            href="#" 
+            href="https://wa.me/+2349163109824" 
             className="rounded-full text-lg p-3 bg-stone-900 text-white hover:bg-stone-800 
               hover:-translate-y-1 flex items-center justify-center transition-all duration-300 shadow-md"
           >
